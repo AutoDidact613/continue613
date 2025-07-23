@@ -8,7 +8,7 @@ class Calculator {
     return this;
   }
   subtract(number) {
-    return this;ן
+    return this;
   }
 
   multiply(number) {

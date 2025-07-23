@@ -29,6 +29,7 @@ import {
 } from "./getSuggestion";
 import { handleImageFile } from "./imageUtils";
 
+
 export function getPlaceholderText(
   placeholder: TipTapEditorProps["placeholder"],
   historyLength: number,

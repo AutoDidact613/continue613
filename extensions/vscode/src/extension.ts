@@ -16,6 +16,7 @@ async function dynamicImportAndActivate(context: vscode.ExtensionContext) {
   return await activateExtension(context);
 }
 
+
 export function activate(context: vscode.ExtensionContext) {
   return dynamicImportAndActivate(context).catch((e) => {
     console.log("Error activating extension: ", e);

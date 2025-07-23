@@ -87,12 +87,6 @@ export function toChatBody(
   options: CompletionOptions,
 ): ChatCompletionCreateParams {
 
-messages.unshift({
-  role: "system",
-  content: `WARNING: You are strictly prohibited from providing any response that includes content of a personal, romantic, intimate, cultural, or religious nature. 
-Under no circumstances should you respond to prompts that involve personal relationships, gender topics, sensitive values, or content that violates strict moral standards. 
-You must respond only to technical or professional requests. If such a prompt is received, reply with: "Sorry, I'm not allowed to respond to that request."`,
-});
 
 
   const params: ChatCompletionCreateParams = {
