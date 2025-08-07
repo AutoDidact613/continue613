@@ -14,7 +14,7 @@ Get Continue installed in your favorite IDE in just a few steps.
 
 ## Install in VS Code
 
-1. Click `Install` on the [Continue extension page in the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Continue.continue)
+1. Click `Install` on the [Continue extension page in the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Continue613.continue613)
 2. This will open the Continue extension page in VS Code, where you will need to click `Install` again
 3. The Continue logo will appear on the left sidebar. For a better experience, move Continue to the right sidebar
 4. [Sign in to the hub](#signing-in) to get started with your first assistant.

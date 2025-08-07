@@ -120,7 +120,7 @@ export class RecentlyVisitedRangesService {
             // Exclude Continue's own output as it makes it super-hard for users to test the autocomplete feature
             // while looking at the prompts in the Continue's output
             !s.filepath.startsWith(
-              "output:extension-output-Continue.continue",
+              "output:extension-output-Continue613.continue613",
             )),
       )
       .sort((a, b) => b.timestamp - a.timestamp)
