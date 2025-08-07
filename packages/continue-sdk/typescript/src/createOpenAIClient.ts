@@ -1,6 +1,6 @@
 import {
-  AssistantUnrolled,
-  ContinueProperties,
+    AssistantUnrolled,
+    ContinueProperties,
 } from "@continuedev/config-yaml";
 import fetch, { Response } from "node-fetch";
 import OpenAI from "openai";
@@ -45,7 +45,7 @@ export function createOpenAIClient({
   models: assistantModels,
   organizationId,
   apiKey,
-  baseURL = "https://api.continue.dev/",
+  baseURL = "https://api.continue613.dev/",
 }: OpenAIClientOptions): OpenAI {
   return new OpenAI({
     apiKey,

@@ -1,8 +1,8 @@
 import {
-  ArrowTopRightOnSquareIcon,
-  DocumentArrowUpIcon,
-  PaintBrushIcon,
-  TableCellsIcon,
+    ArrowTopRightOnSquareIcon,
+    DocumentArrowUpIcon,
+    PaintBrushIcon,
+    TableCellsIcon,
 } from "@heroicons/react/24/outline";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
@@ -24,10 +24,10 @@ export function HelpCenterSection() {
       <div className="-mx-4 flex flex-col">
         <MoreHelpRow
           title="Continue Hub"
-          description="Visit hub.continue.dev to explore custom assistants and blocks"
+          description="Visit hub.continue613.dev to explore custom assistants and blocks"
           Icon={ArrowTopRightOnSquareIcon}
           onClick={() =>
-            ideMessenger.post("openUrl", "https://hub.continue.dev/")
+            ideMessenger.post("openUrl", "https://hub.continue613.dev/")
           }
         />
 
@@ -36,7 +36,7 @@ export function HelpCenterSection() {
           description="Learn how to configure and use Continue"
           Icon={ArrowTopRightOnSquareIcon}
           onClick={() =>
-            ideMessenger.post("openUrl", "https://docs.continue.dev/")
+            ideMessenger.post("openUrl", "https://docs.continue613.dev/")
           }
         />
 

@@ -1,8 +1,8 @@
 import {
-  ArrowTopRightOnSquareIcon,
-  ChevronRightIcon,
-  ClipboardIcon,
-  XCircleIcon,
+    ArrowTopRightOnSquareIcon,
+    ChevronRightIcon,
+    ClipboardIcon,
+    XCircleIcon,
 } from "@heroicons/react/24/outline";
 import { IndexingProgressUpdate } from "core";
 import { useContext, useState } from "react";
@@ -34,11 +34,11 @@ function IndexingProgressErrorText({ update }: IndexingProgressErrorTextProps) {
           Add an Embeddings model to enable codebase indexing. See the docs for
           examples:
           <a
-            href="https://docs.continue.dev/walkthroughs/codebase-embeddings#embeddings-providers"
+            href="https://docs.continue613.dev/walkthroughs/codebase-embeddings#embeddings-providers"
             target="_blank"
             className="cursor-pointer text-inherit underline hover:text-inherit"
           >
-            https://docs.continue.dev/walkthroughs/codebase-embeddings#embeddings-providers
+            https://docs.continue613.dev/walkthroughs/codebase-embeddings#embeddings-providers
           </a>
         </span>
       </div>

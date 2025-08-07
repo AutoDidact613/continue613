@@ -1,29 +1,29 @@
 import {
-  AssistantUnrolled,
-  BLOCK_TYPES,
-  ConfigResult,
-  ConfigValidationError,
-  isAssistantUnrolledNonNullable,
-  MCPServer,
-  ModelRole,
-  PackageIdentifier,
-  RegistryClient,
-  Rule,
-  TEMPLATE_VAR_REGEX,
-  unrollAssistant,
-  validateConfigYaml,
+    AssistantUnrolled,
+    BLOCK_TYPES,
+    ConfigResult,
+    ConfigValidationError,
+    isAssistantUnrolledNonNullable,
+    MCPServer,
+    ModelRole,
+    PackageIdentifier,
+    RegistryClient,
+    Rule,
+    TEMPLATE_VAR_REGEX,
+    unrollAssistant,
+    validateConfigYaml,
 } from "@continuedev/config-yaml";
 import { dirname } from "node:path";
 
 import {
-  ContinueConfig,
-  ExperimentalMCPOptions,
-  IContextProvider,
-  IDE,
-  IdeInfo,
-  IdeSettings,
-  ILLMLogger,
-  RuleWithSource,
+    ContinueConfig,
+    ExperimentalMCPOptions,
+    IContextProvider,
+    IDE,
+    IdeInfo,
+    IdeSettings,
+    ILLMLogger,
+    RuleWithSource,
 } from "../..";
 import { MCPManagerSingleton } from "../../context/mcp/MCPManagerSingleton";
 import DocsContextProvider from "../../context/providers/DocsContextProvider";
@@ -246,7 +246,7 @@ async function configYamlToContinueConfig(options: {
 
     localErrors.push({
       fatal: false,
-      message: `MCP server "${mcpServer.name}" has unsubstituted variables in args: ${mcpArgVariables.join(", ")}. Please refer to https://docs.continue.dev/hub/secrets/secret-types for managing hub secrets.`,
+      message: `MCP server "${mcpServer.name}" has unsubstituted variables in args: ${mcpArgVariables.join(", ")}. Please refer to https://docs.continue613.dev/hub/secrets/secret-types for managing hub secrets.`,
     });
   });
 

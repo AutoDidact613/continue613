@@ -89,7 +89,7 @@
         "continue613.telemetryEnabled": {
           "type": "boolean",
           "default": true,
-          "markdownDescription": "Continue collects anonymous usage data, cleaned of PII, to help us improve the product for our users. Read more  at [continue.dev › Telemetry](https://docs.continue.dev/telemetry)."
+          "markdownDescription": "Continue collects anonymous usage data, cleaned of PII, to help us improve the product for our users. Read more  at [continue613.dev › Telemetry](https://docs.continue613.dev/telemetry)."
         },
         "continue613.showInlineTip": {
           "type": "boolean",
@@ -104,12 +104,12 @@
         "continue613.enableQuickActions": {
           "type": "boolean",
           "default": false,
-          "markdownDescription": "Enable the experimental Quick Actions feature. Read our walkthrough to learn about configuration and how to share feedback: [continue.dev › Walkthrough: Quick Actions (experimental)](https://docs.continue.dev/customize/deep-dives/vscode-actions#quick-actions)"
+          "markdownDescription": "Enable the experimental Quick Actions feature. Read our walkthrough to learn about configuration and how to share feedback: [continue613.dev › Walkthrough: Quick Actions (experimental)](https://docs.continue613.dev/customize/deep-dives/vscode-actions#quick-actions)"
         },
         "continue613.enableTabAutocomplete": {
           "type": "boolean",
           "default": true,
-          "markdownDescription": "Enable Continue's tab autocomplete feature. Read our walkthrough to learn about configuration and how to share feedback: [continue.dev › Walkthrough: Tab Autocomplete (beta)](https://docs.continue.dev/features/tab-autocomplete)"
+          "markdownDescription": "Enable Continue's tab autocomplete feature. Read our walkthrough to learn about configuration and how to share feedback: [continue613.dev › Walkthrough: Tab Autocomplete (beta)](https://docs.continue613.dev/features/tab-autocomplete)"
         },
         "continue613.pauseTabAutocompleteOnBattery": {
           "type": "boolean",

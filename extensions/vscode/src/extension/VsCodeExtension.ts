@@ -108,7 +108,7 @@ export class VsCodeExtension {
     // Sidebar
     context.subscriptions.push(
       vscode.window.registerWebviewViewProvider(
-        "continue.continueGUIView",
+        "continue613.continueGUIView",
         this.sidebar,
         {
           webviewOptions: { retainContextWhenHidden: true },
@@ -255,7 +255,7 @@ export class VsCodeExtension {
 
     context.subscriptions.push(
       vscode.window.registerWebviewViewProvider(
-        "continue.continueConsoleView",
+        "continue613.continueConsoleView",
         this.consoleView,
       ),
     );
@@ -347,7 +347,7 @@ export class VsCodeExtension {
       if (e.provider.id === env.AUTH_TYPE) {
         void vscode.commands.executeCommand(
           "setContext",
-          "continue.isSignedInToControlPlane",
+          "continue613.isSignedInToControlPlane",
           true,
         );
 
@@ -358,7 +358,7 @@ export class VsCodeExtension {
       } else {
         void vscode.commands.executeCommand(
           "setContext",
-          "continue.isSignedInToControlPlane",
+          "continue613.isSignedInToControlPlane",
           false,
         );
 

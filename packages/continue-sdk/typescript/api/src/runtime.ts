@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-export const BASE_PATH = "https://api.continue.dev".replace(/\/+$/, "");
+export const BASE_PATH = "https://api.continue613.dev".replace(/\/+$/, "");
 
 export interface ConfigurationParameters {
   basePath?: string; // override base path

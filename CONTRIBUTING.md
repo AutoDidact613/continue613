@@ -71,7 +71,7 @@ an enhancement are:
 
 Continue is continuously improving, but a feature isn't complete until it is reflected in the documentation! If you see
 something out-of-date or missing, you can help by clicking "Edit this page" at the bottom of any page
-on [docs.continue.dev](https://docs.continue.dev).
+on [docs.continue613.dev](https://docs.continue613.dev).
 
 ### Running the Documentation Server Locally
 
@@ -133,7 +133,7 @@ npm i -g vite
 
 1. Go to the [Continue GitHub repository](https://github.com/continuedev/continue) and fork it to your GitHub account.
 
-2. Clone your forked repository to your local machine. Use: `git clone https://github.com/YOUR_USERNAME/continue.git`
+2. Clone your forked repository to your local machine. Use: `git clone https://github.com/YOUR_USERNAME/continue613.git`
 
 3. Navigate to the cloned directory and make sure you are on the main branch. Create your feature/fix branch from there,
    like so: `git checkout -b 123-my-feature-branch`

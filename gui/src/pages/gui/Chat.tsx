@@ -1,17 +1,17 @@
 import {
-  ArrowLeftIcon,
-  ChatBubbleOvalLeftIcon,
+    ArrowLeftIcon,
+    ChatBubbleOvalLeftIcon,
 } from "@heroicons/react/24/outline";
 import { Editor, JSONContent } from "@tiptap/react";
 import { InputModifiers } from "core";
 import { renderChatMessage } from "core/util/messageContent";
 import {
-  useCallback,
-  useContext,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
+    useCallback,
+    useContext,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
 } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import styled from "styled-components";
@@ -29,17 +29,17 @@ import { IdeMessengerContext } from "../../context/IdeMessenger";
 import { useWebviewListener } from "../../hooks/useWebviewListener";
 import { useAppDispatch, useAppSelector } from "../../redux/hooks";
 import {
-  selectCurrentToolCall,
-  selectCurrentToolCallApplyState,
+    selectCurrentToolCall,
+    selectCurrentToolCallApplyState,
 } from "../../redux/selectors/selectCurrentToolCall";
 import {
-  newSession,
-  updateToolCallOutput,
+    newSession,
+    updateToolCallOutput,
 } from "../../redux/slices/sessionSlice";
 import {
-  setDialogEntryOn,
-  setDialogMessage,
-  setShowDialog,
+    setDialogEntryOn,
+    setDialogMessage,
+    setShowDialog,
 } from "../../redux/slices/uiSlice";
 import { streamEditThunk } from "../../redux/thunks/edit";
 import { loadLastSession } from "../../redux/thunks/session";
@@ -195,7 +195,7 @@ export function Chat() {
       //     // So that something happens if in new chat
       //     void ideMessenger.ide.showToast(
       //       "error",
-      //       "You've reached the free trial limit. Please configure a model to continue.",
+      //       "You've reached the free trial limit. Please configure a model to continue613.",
       //     );
 
       //     // If history, show the dialog, which will automatically close if there is not history

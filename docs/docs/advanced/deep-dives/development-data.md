@@ -8,13 +8,13 @@ keywords: [development data, dev data, LLM-aided development]
 
 When you use Continue, you automatically collect data on how you build software. By default, this development data is saved to `.continue/dev_data` on your local machine.
 
-You can read more about how development data is generated as a byproduct of LLM-aided development and why we believe that you should start collecting it now: [It’s time to collect data on how you build software](https://blog.continue.dev/its-time-to-collect-data-on-how-you-build-software)
+You can read more about how development data is generated as a byproduct of LLM-aided development and why we believe that you should start collecting it now: [It’s time to collect data on how you build software](https://blog.continue613.dev/its-time-to-collect-data-on-how-you-build-software)
 
 ## Custom Data Destinations
 
 You can also configure custom destinations for your data, including remote HTTP endpoints and local file directories.
 
-For hub assistants, data destinations are configured in `data` blocks. Visit the hub to [explore example data blocks](https://hub.continue.dev/explore/data) or [create your own](https://hub.continue.dev/new?type=block&blockType=data).
+For hub assistants, data destinations are configured in `data` blocks. Visit the hub to [explore example data blocks](https://hub.continue613.dev/explore/data) or [create your own](https://hub.continue613.dev/new?type=block&blockType=data).
 
 See more details about adding `data` blocks to your configuration files in the [YAML specification](/reference#data)
 

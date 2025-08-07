@@ -17,7 +17,7 @@ keywords:
 
 ![Continue Logo](/img/intro.png)
 
-**Continue enables developers to create, share, and use custom AI code assistants with our open-source [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue613.continue613) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension) extensions and [hub of models, rules, prompts, docs, and other building blocks](https://hub.continue.dev)**
+**Continue enables developers to create, share, and use custom AI code assistants with our open-source [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue613.continue613) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension) extensions and [hub of models, rules, prompts, docs, and other building blocks](https://hub.continue613.dev)**
 
 - [Chat](features/chat/quick-start) to understand and iterate on code in the sidebar
 - [Autocomplete](features/autocomplete/quick-start) to receive inline code suggestions as you type

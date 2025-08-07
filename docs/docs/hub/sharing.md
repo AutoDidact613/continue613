@@ -19,13 +19,13 @@ Join thousands of developers using Continue. Share experiences, get help, and co
 
 Share your custom assistants, blocks, and configurations with the Continue community.
 
-[Visit the Hub →](https://hub.continue.dev)
+[Visit the Hub →](https://hub.continue613.dev)
 
 ## Browse Assistants
 
 Explore assistants created by the community for specific use cases and workflows.
 
-[Browse Assistants →](https://hub.continue.dev)
+[Browse Assistants →](https://hub.continue613.dev)
 
 ## Using Assistants
 

@@ -8,10 +8,10 @@
 
 <div align="center">
 
-**[Continue](https://docs.continue.dev) enables developers to create, share, and use custom AI code assistants with our
+**[Continue](https://docs.continue613.dev) enables developers to create, share, and use custom AI code assistants with our
 open-source [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue613.continue613)
 and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension) extensions
-and [hub of models, rules, prompts, docs, and other building blocks](https://hub.continue.dev)**
+and [hub of models, rules, prompts, docs, and other building blocks](https://hub.continue613.dev)**
 
 </div>
 
@@ -20,40 +20,40 @@ and [hub of models, rules, prompts, docs, and other building blocks](https://hub
 <a target="_blank" href="https://opensource.org/licenses/Apache-2.0" style="background:none">
     <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" style="height: 22px;" />
 </a>
-<a target="_blank" href="https://docs.continue.dev" style="background:none">
+<a target="_blank" href="https://docs.continue613.dev" style="background:none">
     <img src="https://img.shields.io/badge/continue_docs-%23BE1B55" style="height: 22px;" />
 </a>
-<a target="_blank" href="https://changelog.continue.dev" style="background:none">
+<a target="_blank" href="https://changelog.continue613.dev" style="background:none">
     <img src="https://img.shields.io/badge/changelog-%96EFF3" style="height: 22px;" />
 </a>
 <a target="_blank" href="https://discord.gg/vapESyrFmJ" style="background:none">
-    <img src="https://img.shields.io/badge/discord-join-continue.svg?labelColor=191937&color=6F6FF7&logo=discord" style="height: 22px;" />
+    <img src="https://img.shields.io/badge/discord-join-continue613.svg?labelColor=191937&color=6F6FF7&logo=discord" style="height: 22px;" />
 </a>
 
 <p></p>
 
 ## Agent
 
-[Agent](https://continue.dev/docs/agent/how-to-use-it) enables you to make more substantial changes to your codebase
+[Agent](https://continue613.dev/docs/agent/how-to-use-it) enables you to make more substantial changes to your codebase
 
 ![agent](docs/static/img/agent.gif)
 
 ## Chat
 
-[Chat](https://continue.dev/docs/chat/how-to-use-it) makes it easy to ask for help from an LLM without needing to leave
+[Chat](https://continue613.dev/docs/chat/how-to-use-it) makes it easy to ask for help from an LLM without needing to leave
 the IDE
 
 ![chat](docs/static/img/chat.gif)
 
 ## Autocomplete
 
-[Autocomplete](https://continue.dev/docs/autocomplete/how-to-use-it) provides inline code suggestions as you type
+[Autocomplete](https://continue613.dev/docs/autocomplete/how-to-use-it) provides inline code suggestions as you type
 
 ![autocomplete](docs/static/img/autocomplete.gif)
 
 ## Edit
 
-[Edit](https://continue.dev/docs/edit/how-to-use-it) is a convenient way to modify code without leaving your current
+[Edit](https://continue613.dev/docs/edit/how-to-use-it) is a convenient way to modify code without leaving your current
 file
 
 ![edit](docs/static/img/edit.gif)
@@ -62,7 +62,7 @@ file
 
 ## Getting Started
 
-Learn about how to install and use Continue in the docs [here](https://continue.dev/docs/getting-started/install)
+Learn about how to install and use Continue in the docs [here](https://continue613.dev/docs/getting-started/install)
 
 ## Contributing
 

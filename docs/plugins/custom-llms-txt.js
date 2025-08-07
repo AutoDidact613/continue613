@@ -60,7 +60,7 @@ module.exports = function customLLMsTxtPlugin(context, options) {
           const cleanPath = relativePath
             .replace(/index\.html$/, "")
             .replace(/\/$/, "");
-          const url = `https://docs.continue.dev/${cleanPath}`;
+          const url = `https://docs.continue613.dev/${cleanPath}`;
 
           const docInfo = { title, url, description, path: cleanPath };
 

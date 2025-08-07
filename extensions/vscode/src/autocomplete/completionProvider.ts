@@ -56,7 +56,7 @@ export class ContinueCompletionProvider
       if (val === "Documentation") {
         vscode.env.openExternal(
           vscode.Uri.parse(
-            "https://docs.continue.dev/features/tab-autocomplete",
+            "https://docs.continue613.dev/features/tab-autocomplete",
           ),
         );
       }
@@ -338,7 +338,7 @@ export class ContinueCompletionProvider
         range,
         {
           title: "Log Autocomplete Outcome",
-          command: "continue.logAutocompleteOutcome",
+          command: "continue613.logAutocompleteOutcome",
           arguments: [input.completionId, this.completionProvider],
         },
       );
@@ -401,7 +401,7 @@ export class ContinueCompletionProvider
             ),
             {
               title: "Log Next Edit Outcome",
-              command: "continue.logNextEditOutcomeAccept",
+              command: "continue613.logNextEditOutcomeAccept",
               arguments: [input.completionId, this.nextEditLoggingService], // TODO: this may have to be this.completionProvider.
             },
           );

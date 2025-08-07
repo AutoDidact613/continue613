@@ -103,7 +103,7 @@ export class VsCodeMessenger {
     });
 
     this.onWebview("toggleDevTools", (msg) => {
-      vscode.commands.executeCommand("continue.viewLogs");
+      vscode.commands.executeCommand("continue613.viewLogs");
     });
     this.onWebview("reloadWindow", (msg) => {
       vscode.commands.executeCommand("workbench.action.reloadWindow");
@@ -112,12 +112,12 @@ export class VsCodeMessenger {
       vscode.commands.executeCommand("workbench.action.focusActiveEditorGroup");
     });
     this.onWebview("toggleFullScreen", (msg) => {
-      vscode.commands.executeCommand("continue.toggleFullScreen");
+      vscode.commands.executeCommand("continue613.toggleFullScreen");
     });
 
     this.onWebview("acceptDiff", async ({ data: { filepath, streamId } }) => {
       await vscode.commands.executeCommand(
-        "continue.acceptDiff",
+        "continue613.acceptDiff",
         filepath,
         streamId,
       );
@@ -125,7 +125,7 @@ export class VsCodeMessenger {
 
     this.onWebview("rejectDiff", async ({ data: { filepath, streamId } }) => {
       await vscode.commands.executeCommand(
-        "continue.rejectDiff",
+        "continue613.rejectDiff",
         filepath,
         streamId,
       );
@@ -368,7 +368,7 @@ export class VsCodeMessenger {
       );
       vscode.commands.executeCommand(
         "setContext",
-        "continue.isSignedInToControlPlane",
+        "continue613.isSignedInToControlPlane",
         false,
       );
     });

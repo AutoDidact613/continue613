@@ -7,9 +7,9 @@ info:
   version: 1.0.0
   contact:
     name: Continue Dev Team
-    url: https://continue.dev
+    url: https://continue613.dev
 servers:
-  - url: https://api.continue.dev
+  - url: https://api.continue613.dev
     description: Production server
   - url: http://localhost:3001
     description: Local development server

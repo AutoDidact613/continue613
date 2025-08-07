@@ -77,9 +77,9 @@ export function validateLicenseKey(licenseKey: string): {
 
 const MACOS_MDM_PATHS = [
   // Organization-specific MDM plist
-  "/Library/Managed Preferences/dev.continue.app.plist",
+  "/Library/Managed Preferences/dev.continue613.app.plist",
   // User-specific MDM plist
-  path.join(os.homedir(), "Library/Managed Preferences/dev.continue.app.plist"),
+  path.join(os.homedir(), "Library/Managed Preferences/dev.continue613.app.plist"),
 ];
 
 function readMdmKeysMacOS(): MdmKeys | undefined {
@@ -258,7 +258,7 @@ function writeMdmKeysMacOS(licenseKey: string): boolean {
     // Write to user-specific MDM plist
     const userMdmPath = path.join(
       os.homedir(),
-      "Library/Managed Preferences/dev.continue.app.plist",
+      "Library/Managed Preferences/dev.continue613.app.plist",
     );
 
     const config = {

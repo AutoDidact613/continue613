@@ -7,11 +7,11 @@ keywords: [config, settings, customize]
 
 You can easily access your assistant configuration from the Continue Chat sidebar. Open the sidebar by pressing <kbd>cmd/ctrl</kbd> + <kbd>L</kbd> (VS Code) or <kbd>cmd/ctrl</kbd> + <kbd>J</kbd> (JetBrains) and click the Assistant selector above the main chat input. Then, you can hover over an assistant and click the `new window` (hub assistants) or `gear` (local assistants) icon.
 
-![configure an assistant](/img/configure-continue.png)
+![configure an assistant](/img/configure-continue613.png)
 
 ## Hub Assistants
 
-Hub Assistants can be managed in [the Hub](https://hub.continue.dev). See [Editing an Assistant](../../hub/assistants/edit-an-assistant.md)
+Hub Assistants can be managed in [the Hub](https://hub.continue613.dev). See [Editing an Assistant](../../hub/assistants/edit-an-assistant.md)
 
 ## YAML Config
 

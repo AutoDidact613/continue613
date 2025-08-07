@@ -19,7 +19,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://docs.continue.dev",
+  url: "https://docs.continue613.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -85,13 +85,13 @@ const config = {
         },
       ],
       // Replace with your project's social card
-      image: "https://docs.continue.dev/img/continue-social-card.png",
+      image: "https://docs.continue613.dev/img/continue-social-card.png",
       navbar: {
         title: "Continue",
         logo: {
           alt: "Continue Logo",
           src: "img/logo.png",
-          href: "https://continue.dev",
+          href: "https://continue613.dev",
           target: "_blank",
         },
         items: [
@@ -108,7 +108,7 @@ const config = {
             position: "left",
           },
           {
-            to: "https://hub.continue.dev",
+            to: "https://hub.continue613.dev",
             label: "Explore",
             position: "left",
           },

@@ -51,8 +51,8 @@ toc_max_heading_level: 5
 "docs": [
     {
     "title": "Continue",
-    "startUrl": "https://docs.continue.dev/intro",
-    "faviconUrl": "https://docs.continue.dev/favicon.ico",
+    "startUrl": "https://docs.continue613.dev/intro",
+    "faviconUrl": "https://docs.continue613.dev/favicon.ico",
   }
 ]
 ```

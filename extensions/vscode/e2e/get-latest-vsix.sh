@@ -15,4 +15,4 @@ fi
 mkdir -p "./e2e/vsix"
 
 # Copy the file to e2e directory with fixed name
-cp "$latest_vsix" "./e2e/vsix/continue.vsix"
+cp "$latest_vsix" "./e2e/vsix/continue613.vsix"
