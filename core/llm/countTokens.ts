@@ -448,6 +448,9 @@ function compileChatMessages({
     };
   });
 
+  console.log("---Toral tokens---", currentTotal);
+  console.log("---Input Tokens available---", inputTokensAvailable)
+  
   while (historyWithTokens.length > 0 && currentTotal > inputTokensAvailable) {
     const message = historyWithTokens.shift()!;
     currentTotal -= message.tokens;
@@ -483,5 +486,6 @@ export {
   pruneLinesFromTop,
   pruneRawPromptFromTop,
   pruneStringFromBottom,
-  pruneStringFromTop,
+  pruneStringFromTop
 };
+

@@ -28,6 +28,8 @@ if (target) {
 
 exec(command, (error) => {
   if (error) {
+    console.log(error);
+    
     throw error;
   }
   console.log(

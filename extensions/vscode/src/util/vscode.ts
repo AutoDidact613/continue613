@@ -22,7 +22,7 @@ export function getNonce() {
 }
 
 export function getExtensionUri(): vscode.Uri {
-  return vscode.extensions.getExtension("Continue613.continue613")!.extensionUri;
+  return vscode.extensions.getExtension("AutoDidact613.continue613")!.extensionUri;
 }
 
 export function getViewColumnOfFile(

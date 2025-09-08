@@ -139,7 +139,7 @@ const config = {
             items: [
               {
                 label: "VS Code",
-                to: "https://marketplace.visualstudio.com/items?itemName=Continue613.continue613",
+                to: "https://marketplace.visualstudio.com/items?itemName=AutoDidact613.continue613",
               },
               {
                 label: "JetBrains",

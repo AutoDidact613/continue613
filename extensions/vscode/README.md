@@ -8,7 +8,7 @@
 
 <div align="center">
 
-**[Continue](https://docs.continue613.dev) enables to developers create, share, and use custom AI code assistants with our open-source [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue613.continue613) extension and [hub of models, rules, prompts, docs, and other building blocks](https://hub.continue613.dev)**
+**[Continue](https://docs.continue613.dev) enables to developers create, share, and use custom AI code assistants with our open-source [VS Code](https://marketplace.visualstudio.com/items?itemName=AutoDidact613.continue613) extension and [hub of models, rules, prompts, docs, and other building blocks](https://hub.continue613.dev)**
 
 </div>
 

@@ -931,7 +931,9 @@ export abstract class BaseLLM implements ILLM {
 
     // const messages = messages_before_filter.filter(   (m) => m.content !== SYSTEM_FILTER_PROMPT.content)
     messages.push(SYSTEM_FILTER_PROMPT);
-    
+    console.log("messages",messages)
+
+    console.log(messages[1].content);
 
     const prompt = this.templateMessages
       ? this.templateMessages(messages)

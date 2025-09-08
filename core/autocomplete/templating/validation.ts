@@ -1,8 +1,8 @@
 import {
-  AutocompleteClipboardSnippet,
-  AutocompleteCodeSnippet,
-  AutocompleteSnippet,
-  AutocompleteSnippetType,
+    AutocompleteClipboardSnippet,
+    AutocompleteCodeSnippet,
+    AutocompleteSnippet,
+    AutocompleteSnippetType,
 } from "../snippets/types";
 
 const MAX_CLIPBOARD_AGE = 5 * 60 * 1000;
@@ -28,7 +28,7 @@ export const isValidSnippet = (snippet: AutocompleteSnippet): boolean => {
 
   if (
     (snippet as AutocompleteCodeSnippet).filepath?.startsWith(
-      "output:extension-output-Continue613.continue613",
+      "output:extension-output-AutoDidact613.continue613",
     )
   ) {
     return false;

@@ -21,7 +21,7 @@
   "displayName": "Continue - open-source AI code assistant for Charedic programmers",
   "pricing": "Free",
   "description": "The leading Charedic open-source AI code assistant",
-  "publisher": "Continue613",
+  "publisher": "AutoDidact613",
   "engines": {
     "vscode": "^1.70.0",
     "node": ">=20.19.0"
