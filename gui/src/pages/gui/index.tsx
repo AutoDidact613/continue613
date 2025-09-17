@@ -1,5 +1,8 @@
 import { History } from "../../components/History";
+import AlertUsing from "./AlertUsing";
 import { Chat } from "./Chat";
+
+
 
 export default function GUI() {
   return (
@@ -10,6 +13,7 @@ export default function GUI() {
       <main className="no-scrollbar flex flex-1 flex-col overflow-y-auto">
         <Chat />
       </main>
+      <AlertUsing />
     </div>
   );
 }

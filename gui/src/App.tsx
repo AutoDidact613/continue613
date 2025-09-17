@@ -56,9 +56,7 @@ function App() {
       <MainEditorProvider>
         <SubmenuContextProvidersProvider>
           <RouterProvider router={router} />
-          {/* <div>
-            <h1>Hello from extension</h1>
-            </div> */}
+        
         </SubmenuContextProvidersProvider>
       </MainEditorProvider>
       <ParallelListeners />
