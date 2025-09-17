@@ -146,215 +146,215 @@
     "commands": [
       {
         "command": "continue613.applyCodeFromChat",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Apply code from chat",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.acceptDiff",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Accept Diff",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.rejectDiff",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Reject Diff",
-        "group": "Continue",
+        "group": "Continue613",
         "icon": "$(stop)"
       },
       {
         "command": "continue613.acceptVerticalDiffBlock",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Accept Vertical Diff Block",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.rejectVerticalDiffBlock",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Reject Vertical Diff Block",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.focusEdit",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Edit Highlighted Code",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.focusContinueInput",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Add Highlighted Code to Context and Clear Chat",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.focusContinueInputWithoutClear",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Add Highlighted Code to Context",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.debugTerminal",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Debug Terminal",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.exitEditMode",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Exit Edit Mode",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.toggleFullScreen",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Open in new window",
         "icon": "$(link-external)",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.openConfigPage",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Open Settings",
         "icon": "$(gear)",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.toggleTabAutocompleteEnabled",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Toggle Autocomplete Enabled",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.forceAutocomplete",
         "title": "Continue: Force Autocomplete",
-        "category": "Continue"
+        "category": "Continue613"
       },
       {
         "command": "continue613.selectFilesAsContext",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Select Files as Context",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.newSession",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "New Session",
         "icon": "$(add)",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.viewHistory",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "View History",
         "icon": "$(history)",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.viewLogs",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "View History",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.clearConsole",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Clear Console",
         "icon": "$(clear-all)",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.navigateTo",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Navigate to a path",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.writeCommentsForCode",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Write Comments for this Code",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.writeDocstringForCode",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Write a Docstring for this Code",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.fixCode",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Fix this Code",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.optimizeCode",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Optimize this Code",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.fixGrammar",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Fix Grammar / Spelling",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.codebaseForceReIndex",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Codebase Force Re-Index",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.rebuildCodebaseIndex",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Rebuild codebase index",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.docsIndex",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Docs Index",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.docsReIndex",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Docs Force Re-Index",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.focusContinueInput",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Focus Continue Chat",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.enterEnterpriseLicenseKey",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Enter Enterprise License Key",
-        "group": "Continue"
+        "group": "Continue613"
       },
       {
         "command": "continue613.nextEditWindow.hideNextEditSuggestion",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Hide Next Edit Suggestion"
       },
       {
         "command": "continue613.nextEditWindow.acceptNextEditSuggestion",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Accept Next Edit Suggestion"
       },
       {
         "command": "continue613.forceNextEdit",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Continue: Force Next Edit"
       },
       {
         "command": "continue613.generateRule",
-        "category": "Continue",
+        "category": "Continue613",
         "title": "Generate Rule",
-        "group": "Continue"
+        "group": "Continue613"
       }
     ],
     "keybindings": [
@@ -462,7 +462,7 @@
     "submenus": [
       {
         "id": "continue613.continueSubMenu",
-        "label": "Continue"
+        "label": "Continue613"
       }
     ],
     "menus": {
@@ -498,44 +498,44 @@
       "editor/title/run": [
         {
           "command": "continue613.rejectDiff",
-          "group": "Continue",
+          "group": "Continue613",
           "when": "continue613.streamingDiff"
         }
       ],
       "continue613.continueSubMenu": [
         {
           "command": "continue613.focusContinueInputWithoutClear",
-          "group": "Continue",
+          "group": "Continue613",
           "when": "editorHasSelection"
         },
         {
           "command": "continue613.focusEdit",
-          "group": "Continue",
+          "group": "Continue613",
           "when": "editorHasSelection && !editorReadonly"
         },
         {
           "command": "continue613.writeCommentsForCode",
-          "group": "Continue",
+          "group": "Continue613",
           "when": "editorHasSelection && !editorReadonly"
         },
         {
           "command": "continue613.writeDocstringForCode",
-          "group": "Continue",
+          "group": "Continue613",
           "when": "editorHasSelection && !editorReadonly"
         },
         {
           "command": "continue613.fixCode",
-          "group": "Continue",
+          "group": "Continue613",
           "when": "editorHasSelection && !editorReadonly"
         },
         {
           "command": "continue613.optimizeCode",
-          "group": "Continue",
+          "group": "Continue613",
           "when": "editorHasSelection && !editorReadonly"
         },
         {
           "command": "continue613.fixGrammar",
-          "group": "Continue",
+          "group": "Continue613",
           "when": "editorHasSelection && editorLangId == 'markdown' && !editorReadonly"
         }
       ],
@@ -595,7 +595,7 @@
       "activitybar": [
         {
           "id": "continue",
-          "title": "Continue",
+          "title": "Continue613",
           "icon": "media/sidebar-icon.png"
         }
       ],
@@ -612,7 +612,7 @@
         {
           "type": "webview",
           "id": "continue613.continueGUIView",
-          "name": "Continue",
+          "name": "Continue613",
           "icon": "media/sidebar-icon.png",
           "visibility": "visible"
         }
