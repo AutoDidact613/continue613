@@ -2,7 +2,7 @@
   "name": "continue613",
   "icon": "media/icon.png",
   "author": "Gili Berk, Shoshi Tepp. Based on Continue Dev, Inc. ",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/AutoDidact/continue"
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/AutoDidact/continue",
   "qna": "",
   "license": "Apache-2.0",
-  "displayName": "Continue - open-source AI code assistant for Charedic programmers",
+  "displayName": "Continue613 - open-source AI code assistant for Charedic programmers",
   "pricing": "Free",
   "description": "The leading Charedic open-source AI code assistant",
   "publisher": "AutoDidact613",
@@ -144,6 +144,13 @@
       }
     },
     "commands": [
+      {
+            "command": "continue613.showWelcomeAlert",
+        "title": "$(info) ברוכים הבאים לתוסף",
+         "category": "Continue613",
+        "icon": "$(info)",
+        "group": "Continue613"
+      },
       {
         "command": "continue613.applyCodeFromChat",
         "category": "Continue613",
@@ -565,6 +572,11 @@
           "command": "continue613.openConfigPage",
           "group": "navigation@4",
           "when": "view == continue613.continueGUIView"
+        },
+        {
+          "command": "continue613.showWelcomeAlert",
+          "when": "true",
+          "group": "navigation@4"
         },
         {
           "command": "continue613.clearConsole",

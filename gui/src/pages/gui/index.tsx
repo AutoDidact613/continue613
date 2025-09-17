@@ -12,8 +12,9 @@ export default function GUI() {
       </aside>
       <main className="no-scrollbar flex flex-1 flex-col overflow-y-auto">
         <Chat />
+        <AlertUsing />
       </main>
-      <AlertUsing />
+
     </div>
   );
 }

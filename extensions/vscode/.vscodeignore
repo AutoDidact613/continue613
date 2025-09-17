@@ -25,3 +25,9 @@ e2e
 server/exe/**
 !out/node_modules/**
 !node_modules/@vscode/ripgrep/bin/rg
+
+
+!docs/static/**
+!media/**
+!README.md
+!LICENSE

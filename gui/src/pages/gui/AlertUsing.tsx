@@ -73,7 +73,10 @@
 
 import { useEffect, useState } from "react";
 
+
 const AlertUsing = () => {
+
+
     const [display, setDisplay] = useState(false);
 
     useEffect(() => {
@@ -125,7 +128,7 @@ const AlertUsing = () => {
                             className="text-2xl font-bold mb-6 text-center"
                             style={{ color: '#569cd6', marginTop: '8px' }}
                         >
-                            ברוכים הבאים לתוסף!
+                            ברוכים הבאים ל-Continu613
                         </h1>
 
                         <div className="space-y-5 text-base leading-relaxed">
@@ -157,7 +160,7 @@ const AlertUsing = () => {
                                 <span style={{ color: '#dcdcaa', fontSize: '1.1em' }}>📩</span>
                                 <span>
                                     פניות ודיווח על באגים ניתן לשלוח לכתובת:{' '}
-                                    <a
+                                    {' '}      <a
                                         href="mailto:sh0504128171@gmail.com"
                                         className="transition-colors duration-200"
                                         style={{ color: '#4fc1ff', textDecoration: 'underline' }}
@@ -166,6 +169,8 @@ const AlertUsing = () => {
                                     >
                                         sh0504128171@gmail.com
                                     </a>
+                                    <br />    או לפנות בפלאפון:
+                                    <a> 050-412-8171 </a>
                                 </span>
                             </div>
 
@@ -201,39 +206,42 @@ const AlertUsing = () => {
                             <div className="flex items-start gap-2">
                                 <span style={{ fontSize: '1.1em' }}>⚠️</span>
                                 <span>
-                                    <strong>שימו לב:</strong> לשימוש בתוסף יש ליצור חשבון במודל AI (כמו OpenAI וכו').
+                                    <strong>שימו לב:</strong> לשימוש בתוסף יש ליצור חשבון  LLM (כמו OpenAI).
                                     מומלץ לעקוב אחר עלויות השימוש בתחילת הדרך.
                                 </span>
                             </div>
                         </div>
                     </div>
                 </div>
-            ) : (<></>
-                // <button
-                //     onClick={() => setDisplay(true)}
-                //     className="fixed bottom-4 left-4 z-50 px-4 py-2 rounded-lg shadow-lg transition-all duration-200 font-medium"
-                //     style={{
-                //         backgroundColor: '#007acc',
-                //         color: '#ffffff',
-                //         border: 'none',
-                //         direction: 'rtl'
-                //     }}
-                //     onMouseEnter={(e) => {
-                //         e.target.style.backgroundColor = '#005a9e';
-                //         e.target.style.transform = 'translateY(-1px)';
-                //         e.target.style.boxShadow = '0 8px 25px rgba(0, 122, 204, 0.3)';
-                //     }}
-                //     onMouseLeave={(e) => {
-                //         e.target.style.backgroundColor = '#007acc';
-                //         e.target.style.transform = 'translateY(0)';
-                //         e.target.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.3)';
-                //     }}
-                // >
-                //     הצג מידע על התוסף
-                // </button>
+            ) : (
+                <div className="mt-4"> {/* הוספתי margin-top */}
+                    <button
+                        onClick={() => setDisplay(true)}
+                        className="w-full z-50 px-4 py-2 rounded-lg shadow-lg transition-all duration-200 font-medium"
+                        style={{
+                            backgroundColor: '#001d35',
+                            color: '#6b6666ff',
+                            border: 'none',
+                            direction: 'rtl'
+                        }}
+                        onMouseEnter={(e) => {
+                            e.target.style.backgroundColor = '#323233ff';
+                            e.target.style.transform = 'translateY(-1px)';
+                            e.target.style.boxShadow = '0 8px 25px rgba(0, 122, 204, 0.3)';
+                        }}
+                        onMouseLeave={(e) => {
+                            e.target.style.backgroundColor = '#001d35';
+                            e.target.style.transform = 'translateY(0)';
+                            e.target.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.3)';
+                        }}
+                    >
+                        Continue613 - מי אנחנו
+                    </button>
+                </div >
             )}
         </>
     );
 };
 
 export default AlertUsing;
+
